@@ -9,7 +9,7 @@ namespace Practice_3_task_59е
             Double number; bool ok;// переменная для проверки
             do
             {
-                Console.Write("Введите координату "+msg+" с точностью не более 15 знаков после запятой: ");
+                Console.Write("Введите координату "+msg+" с точностью не более 16 знаков после запятой: ");
                 ok = Double.TryParse(Console.ReadLine(), out number);
                 if (!ok) Console.WriteLine("Неверный ввод!");
             } while (!ok);// конец проверки
